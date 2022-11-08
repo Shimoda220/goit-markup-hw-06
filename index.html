@@ -26,7 +26,7 @@
             <li class="item">
               <a class="link-studio current" href="./index.html">Студія</a>
             </li>
-          
+
             <li class="item">
               <a class="link-portfolio" href="./portfolio.html">Портфоліо</a>
             </li>
@@ -63,24 +63,60 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button data-modal-open class="button-hero pointer" type="button">замовити послугу
-
+          <button data-modal-open class="button-hero pointer" type="button">
+            замовити послугу
           </button>
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button class="icon-svg" data-modal-close>
-              <svg class="close" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="15" cy="15" r="15" fill="white" />
-                <circle cx="15" cy="15" r="14.5" stroke="black" stroke-opacity="0.1" />
-                <path
-                  d="M21 10.1079L19.8921 9L15.5 13.3921L11.1079 9L10 10.1079L14.3921 14.5L10 18.8921L11.1079 20L15.5 15.6079L19.8921 20L21 18.8921L16.6079 14.5L21 10.1079Z"
-                  fill="black" />
-              </svg>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+<button class="icon-svg" data-modal-close>
+  <svg class="close-btn" width="30" height="30">
+    <use href="./images/icons.svg#close-btn"></use>
+  </svg>
+</button>
+<div class="modal-form">
+  <p class="data-text">Залиште свої дані, ми вам передзвонимо</p>
+  <form class="modal-box">
+    <label for="user-name" class="name-modal" name="name-modal">Ім'я</label>
+    <div class="black">
+      <input class="user-name" id="user-name" type="name" name="user-name" autocomplete="name"/>
+        <svg class="modal-icons black-1" width="18" height="18">
+          <use href="./images/icons.svg#man-black"></use>
+        </svg>
+    </div>
+
+      <label for="user-tel" class="user-tel" name="user-tel">Телефон</label>
+      <div class="black">
+        <input class="modal-tel" id="user-tel" type="tel" name="user-tel" autocomplete="tel"/>
+        <svg class="modal-icons black-2" width="18" height="18">
+          <use href="./images/icons.svg#phone-black"></use>
+        </svg>
+      </div>
+
+      <label for="user-email" class="user-email" name="user-email">Пошта</label>
+      <div class="black">
+        <input class="modal-email" id="user-email" type="email" name="user-email" autocomplete="email" />
+        <svg class="modal-icons black-3" width="18" height="18">
+          <use href="./images/icons.svg#email-black"></use>
+        </svg>
+      </div>
+
+      <label for="coments" class="coments" name="coments">Коментар</label>
+      <textarea class="text-area" name="coments-field" id="coments" rows="10" placeholder="Введіть текст"></textarea>
+  
+      <input id="confirmation" type="checkbox" name="checkbox">
+      <label for="confirmation">Погоджуюся з розсилкою та приймаю Умови договору</label>
 
 
-            </button>
+      <button class="subscribe" type="submit">
+      </button>
+  </form>
+</div>
+
+
+
+              
+            </div>
           </div>
-        </div>
         </div>
       </section>
       <!-- our advantages -->
@@ -419,6 +455,28 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-form">
+          <form class="footer-email-box">
+            <label for="name" class="top-label" name="top-label">Підпишіться на розсилку</label>
+
+            <div class="btn-field">
+              <input
+                class="form-field"
+                id="name"
+                type="email"
+                name="top-lable"
+                autocomplete="email"
+                placeholder="E-mail"
+              />
+              <button class="subscribe" type="submit">
+                Підписатися
+                <svg class="send" width="24" height="24">
+                  <use href="./images/icons.svg#send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>

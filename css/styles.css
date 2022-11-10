@@ -937,7 +937,7 @@ font-family: 'Roboto';
 }
 
 .user-name, .modal-tel, .modal-email {
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  /* border: 1px solid rgba(33, 33, 33, 0.2); */
     border-radius: 4px;
   width: 448px;
   height: 40px;
@@ -1004,7 +1004,7 @@ border: 1px solid var(--main-blue-color);
 }
 
 .checkbox-label {
-  display: inline-block
+  display: inline-block;
 }
 
 .confirmation:checked + .checkbox-label {

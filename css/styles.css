@@ -985,20 +985,16 @@ border: 1px solid var(--main-blue-color);
     outline:  none;
 }
 
-/* .confirm-chat {
-  width: 423px;
-  height: 24px;
-} */
 
 .policy {
   color: #188CE8;
 }
 
-/* .confirmation {
+.confirmation {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-} */
+}
 
 .check {
   border: 2px solid #212121;

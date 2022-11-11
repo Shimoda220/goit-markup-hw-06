@@ -932,9 +932,13 @@ font-family: 'Roboto';
 .modal-box input:focus + .modal-icons {
   fill: var(--main-blue-color);
 }
-.modal-box input:focus, .text-area:focus {
+
+
+/* .modal-box input:focus, .text-area:focus {
   border: 1px solid var(--main-blue-color);
-}
+} */
+
+
 
 .user-name, .modal-tel, .modal-email {
   /* border: 1px solid rgba(33, 33, 33, 0.2); */
@@ -959,11 +963,11 @@ font-family: 'Roboto';
   left: 12px;
 }
 
-.labels:focus,
+/* .labels:focus,
 .labels:hover {
   padding-left: 42px;
 border: 1px solid var(--main-blue-color);
-}
+} */
 
 .labels:focus + .modal-icons {
   fill: var(--main-blue-color);
